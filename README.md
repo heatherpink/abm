@@ -12,14 +12,14 @@ model documentation | Documentation for model code
 agentframework documentation | Documentation for agentframework class
 in | Data used to construct environment
 
-## Software purpose
+## Software Purpose
 The software is designed to run an agent-based model. The environment is constructed from 
 the data contained in the in file, and the agents interact with this environment, eating it
 ten units at a time. As the agents consume the environment their store increases. When two
 agents interact, their stores are shared equally between them. The model will run for either
 the specified number of iterations, or until the agent's store reaches the specified amount.
 
-## How to run
+## How To Run
 Initially, the user is requested to define the number of agents and the number of iterations.
 These must be integers. If anything other than an integer is entered the program will stop.
 The model is then run through the use of the 'run model' button in the presented GUI. Once
