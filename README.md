@@ -5,7 +5,7 @@ This repository contains software written to run a basic agent-based model.
 ## Repository Contents
 Contents | Description
 -------- | -----------
-license  | Details of the software license
+license  | Details of the software licence
 model    | Code that runs model
 agentframework | Code that defines agentframework class
 model documentation | Documentation for model code
@@ -22,3 +22,11 @@ the specified number of iterations, or until the agent's store reaches the speci
 ## How to run
 The model is run through the use of the 'run model' button in the presented GUI. Once
 pressed, an animation will run and will continue until the stopping condition is met.
+
+##Testing
+The code contains a number of ways to check that the model is working correctly using the 
+print command. These have been commented out so that the model runs efficiently.
+
+##Further Development
+The usability of the model could be improved by allowing the user to define the number of 
+agents and iterations before the animation begins.
