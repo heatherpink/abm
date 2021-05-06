@@ -3,13 +3,14 @@
 This repository contains software written to run a basic agent-based model.
 
 ## Repository Contents
--license
--model
--agentframework
--documentation
-	-model
-	-agentframework
--in
+Contents | Description
+-------- | -----------
+license  | Details of the software license
+model    | Code that runs model
+agentframework | Code that defines agentframework class
+model documentation | Documentation for model code
+agentframework documentation | Documentation for agentframework class
+in | Data used to construct environment
 
 ## Software purpose
 The software is designed to run an agent-based model. The environment is constructed from 
@@ -19,5 +20,5 @@ agents interact, their stores are shared equally between them. The model will ru
 the specified number of iterations, or until the agent's store reaches the specified amount.
 
 ## How to run
-The model is run through the use of the 'run model' button in the presented gui. Once
+The model is run through the use of the 'run model' button in the presented GUI. Once
 pressed, an animation will run and will continue until the stopping condition is met.
