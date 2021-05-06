@@ -21,9 +21,10 @@ the specified number of iterations, or until the agent's store reaches the speci
 
 ## How To Run
 Initially, the user is requested to define the number of agents and the number of iterations.
-These must be integers. If anything other than an integer is entered the program will stop.
-The model is then run through the use of the 'run model' button in the presented GUI. Once
-pressed, an animation will run and will continue until the stopping condition is met.
+These must be integers. If anything other than an integer is entered an error message will 
+be displayed and the program will stop. The model is then run through the use of the 'run 
+model' button in the presented GUI. Once pressed, an animation will run and will continue 
+until the stopping condition is met.
 
 ## Testing
 The code contains a number of ways to check that the model is working correctly using the 
