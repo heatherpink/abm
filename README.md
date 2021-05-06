@@ -20,7 +20,9 @@ agents interact, their stores are shared equally between them. The model will ru
 the specified number of iterations, or until the agent's store reaches the specified amount.
 
 ## How to run
-The model is run through the use of the 'run model' button in the presented GUI. Once
+Initially, the user is requested to define the number of agents and the number of iterations.
+These must be integers. If anything other than an integer is entered the program will stop.
+The model is then run through the use of the 'run model' button in the presented GUI. Once
 pressed, an animation will run and will continue until the stopping condition is met.
 
 ## Testing
@@ -29,4 +31,4 @@ print command. These have been commented out so that the model runs efficiently.
 
 ## Further Development
 The usability of the model could be improved by allowing the user to define the number of 
-agents and iterations before the animation begins.
+agents and iterations via the GUI before the animation begins.
