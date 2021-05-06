@@ -23,10 +23,10 @@ the specified number of iterations, or until the agent's store reaches the speci
 The model is run through the use of the 'run model' button in the presented GUI. Once
 pressed, an animation will run and will continue until the stopping condition is met.
 
-##Testing
+## Testing
 The code contains a number of ways to check that the model is working correctly using the 
 print command. These have been commented out so that the model runs efficiently.
 
-##Further Development
+## Further Development
 The usability of the model could be improved by allowing the user to define the number of 
 agents and iterations before the animation begins.
